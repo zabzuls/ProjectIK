@@ -1,0 +1,12 @@
+.container-custom{
+    width: 700px;
+    margin: auto;
+}
+.roundedd{
+    border-radius: 20px;
+    height: 400px;
+    width: 800px;
+}
+h1{
+    text-align: center;
+}

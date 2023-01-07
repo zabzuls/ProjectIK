@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+      .navbar {
+       background-color: #F3A545;
+       
+    }
+    .banner {
+      position: relative;
+      height: 200px;
+    }
+
+    .banner-text {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .banner-image {
+      height: 100%;
+    }
+    </style>
+    <title>Navbar</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-F3A545">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Category</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-warning bg-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    </nav>
+    <h1>Corousel</h1>
+    <!-- BATAS -->
+    <!-- <div class="container"> -->
+      <div class="container-custom">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner roundedd">
+          <div class="carousel-item active">
+            <img src="./img/BANNER_Hanif.png" class="d-block w-100"  alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/BANNER-Makanan1.png" class="d-block w-100"  alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/BANNER-Makanan2.png" class="d-block w-100"  alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>  
+    </div>
+    <!--  BATAS-->
+      
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
